@@ -1,10 +1,10 @@
 public class Cliente {
 
-    String cpf;
-    String nome;
-    String email;
-    String telefone;
-    String endereco;
+    private String cpf;
+    private String nome;
+    private String email;
+    private String telefone;
+    private String endereco;
 
     public Cliente(String cpf, String nome, String email, String telefone, String endereco) {
         this.cpf = cpf;
@@ -42,6 +42,30 @@ public class Cliente {
     {
         this.endereco = endereco;
         return this;
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getTelefone() {
+        return telefone;
+    }
+
+    public String getEndereco() {
+        return endereco;
     }
 
 }
