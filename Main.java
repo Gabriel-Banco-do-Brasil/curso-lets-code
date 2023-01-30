@@ -4,19 +4,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.UUID;
 
-/**
- * 
- * Como se localizar no app:
- * 0 - Sai da aplicação
- * 1 - Volta para a pagina anterior
- * 2.xxx - representa gerenciamento de veiculos
- * 3.xxx - representa gerenciamento de clientes
- * 4.xxx - representa gerenciamento de funcionarios
- * 
- * 
- * 
- */
-
 /*
  * for testing:
  * 
