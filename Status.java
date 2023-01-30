@@ -1,0 +1,7 @@
+
+public enum Status {
+    MANUTENÇÃO,
+    OPERACIONAL_DISPONIVEL,
+    OPERACIONAL_ALUGADO,
+    DESCARTE;
+}
